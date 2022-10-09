@@ -112,7 +112,7 @@ NumPy package contains a Matrix library numpy.matlib.
 
       numpy.matlib.eye(n, M,k, dtype)
       
-## **6. Linear Algebra Functions**<a class="anchor" id="4"></a>
+## **6. Linear Algebra Functions**<a class="anchor" id="6"></a>
 [Table of Contents](#0.1)
 
 NumPy package contains numpy.linalg module that provides all the functionality required for linear algebra.
@@ -128,3 +128,7 @@ NumPy package contains numpy.linalg module that provides all the functionality r
        
 - `numpy.matmul()` : The **numpy.matmul()** function returns the matrix product of two arrays.
 - `numpy.linalg.det()` : The **numpy.linalg.det()** function calculates the determinant of the input matrix.
+
+This repository is still in progress. 
+
+# Thank you for reading this repo. Connect with me on <a href="https://www.linkedin.com/in/aayushsaxena08/">LinkedIn</a>⭐
