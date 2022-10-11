@@ -145,7 +145,7 @@ NumPy package contains numpy.linalg module that provides all the functionality r
       # scale - (Standard Deviation) how flat the graph distribution should be.
       # size - The shape of the returned array.
 
-![image](https://user-images.githubusercontent.com/35486320/195160090-203e84d4-7024-4a2b-9f57-f91332676f5a.png)
+     ![image](https://user-images.githubusercontent.com/35486320/195160090-203e84d4-7024-4a2b-9f57-f91332676f5a.png)
 
 - **Binomial Distribution:** It describes the outcome of binary scenarios, e.g. toss of a coin, it will either be head or tails.
 
@@ -156,7 +156,7 @@ NumPy package contains numpy.linalg module that provides all the functionality r
       # p - probability of occurence of each trial (e.g. for toss of a coin 0.5 each).
       # size - The shape of the returned array.
 
-![image](https://user-images.githubusercontent.com/35486320/195160677-b9e2f5ff-13f2-421c-a4c3-9f098de422c7.png)
+     ![image](https://user-images.githubusercontent.com/35486320/195160677-b9e2f5ff-13f2-421c-a4c3-9f098de422c7.png)
 
 - **Poisson Distribution:** Poisson Distribution is a Discrete Distribution. It estimates how many times an event can happen in a specified time. e.g. If someone eats twice a day what is probability he will eat thrice?
 
@@ -175,7 +175,7 @@ NumPy package contains numpy.linalg module that provides all the functionality r
       # b - upper bound - default 1.0.
       # size - The shape of the returned array.
 
-![image](https://user-images.githubusercontent.com/35486320/195161345-43aa0097-1d68-498a-b418-4f3c5decee36.png)
+     ![image](https://user-images.githubusercontent.com/35486320/195161345-43aa0097-1d68-498a-b418-4f3c5decee36.png)
 
 - **Rayleigh Distribution:** 
 
@@ -185,7 +185,7 @@ NumPy package contains numpy.linalg module that provides all the functionality r
       # scale - (standard deviation) decides how flat the distribution will be default 1.0).
       # size - The shape of the returned array.
 
-![image](https://user-images.githubusercontent.com/35486320/195161623-59f33102-1b09-400d-88e3-5fb14ab9a595.png)
+     ![image](https://user-images.githubusercontent.com/35486320/195161623-59f33102-1b09-400d-88e3-5fb14ab9a595.png)
 
 This repository is still in progress. 
 
