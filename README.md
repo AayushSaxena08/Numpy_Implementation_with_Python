@@ -13,7 +13,11 @@ NumPy is the fundamental package for scientific computing in Python. It is a Pyt
 4. **[Statistical Functions](#4)**
 5. **[Matrix Functions](#5)**
 6. **[Linear Algebra Functions](#6)**
-7. **[](#7)**
+7. **[Data Distribution](#7)**
+8. **[](#8)**
+9. **[](#9)**
+10. **[](#10)**
+11. **[](#11)**
 
 ## **1. Introduction to NumPy** <a class="anchor" id="1"></a>
 [Table of Contents](#0.1)
@@ -128,6 +132,60 @@ NumPy package contains numpy.linalg module that provides all the functionality r
        
 - `numpy.matmul()` : The **numpy.matmul()** function returns the matrix product of two arrays.
 - `numpy.linalg.det()` : The **numpy.linalg.det()** function calculates the determinant of the input matrix.
+
+## **6. Data Distribution**<a class="anchor" id="7"></a>
+[Table of Contents](#0.1)
+
+- **Normal Distribution:** Generate a random normal distribution of size 2x3 with mean at 1 and standard deviation of 2
+
+      x = random.normal(loc=1, scale=2, size=(2, 3))
+      print(x)
+      
+      # loc - (Mean) where the peak of the bell exists.
+      # scale - (Standard Deviation) how flat the graph distribution should be.
+      # size - The shape of the returned array.
+
+![image](https://user-images.githubusercontent.com/35486320/195160090-203e84d4-7024-4a2b-9f57-f91332676f5a.png)
+
+- **Binomial Distribution:** It describes the outcome of binary scenarios, e.g. toss of a coin, it will either be head or tails.
+
+      x = random.binomial(n=10, p=0.5, size=10)
+      print(x)
+
+      # n - number of trials.
+      # p - probability of occurence of each trial (e.g. for toss of a coin 0.5 each).
+      # size - The shape of the returned array.
+
+![image](https://user-images.githubusercontent.com/35486320/195160677-b9e2f5ff-13f2-421c-a4c3-9f098de422c7.png)
+
+- **Poisson Distribution:** Poisson Distribution is a Discrete Distribution. It estimates how many times an event can happen in a specified time. e.g. If someone eats twice a day what is probability he will eat thrice?
+
+      x = random.poisson(lam=2, size=10)
+      print(x)
+
+      # lam - rate or known number of occurences e.g. 2 for above problem.
+      # size - The shape of the returned array.
+
+- **Uniform Distribution:** Used to describe probability where every event has equal chances of occuring.
+
+      x = random.uniform(size=(2, 3))
+      print(x)
+
+      # a - lower bound - default 0 .0.
+      # b - upper bound - default 1.0.
+      # size - The shape of the returned array.
+
+![image](https://user-images.githubusercontent.com/35486320/195161345-43aa0097-1d68-498a-b418-4f3c5decee36.png)
+
+- **Rayleigh Distribution:** 
+
+      x = random.rayleigh(scale=2, size=(2, 3))
+      print(x)
+
+      # scale - (standard deviation) decides how flat the distribution will be default 1.0).
+      # size - The shape of the returned array.
+
+![image](https://user-images.githubusercontent.com/35486320/195161623-59f33102-1b09-400d-88e3-5fb14ab9a595.png)
 
 This repository is still in progress. 
 
